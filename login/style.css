@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c5a5a;
+}
+
+#content{
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#content form{
+    width: 100%;
+
+}
+#content form button{
+    width: 100%;
+
+}
